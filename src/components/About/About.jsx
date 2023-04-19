@@ -2,7 +2,7 @@ import css from "./About.module.css";
 
 const About = () => {
   return (
-    <div id="About">
+    <div id="About" className={css.About}>
       <div>
         <div>
           <h2>O nas</h2>
@@ -27,6 +27,7 @@ const About = () => {
             dwie osobne sypialnie. W sypialniach znajdują się dwa łóżka -
             dwuosobowe oraz jednoosobowe.
           </p>
+          <button>Więcej...</button>
         </div>
 
         <div>

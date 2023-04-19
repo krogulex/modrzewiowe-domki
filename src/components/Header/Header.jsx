@@ -1,14 +1,27 @@
-import css from './Header.module.css'
+import css from "./Header.module.css";
 
 const Header = () => {
   return (
     <header>
       <h1>Modrzewiowe Domki</h1>
-      <nav className={css.naviagtion}>
-        <a href="/css/">O nas</a>
-        <a href="/js/">Galeria</a>
-        <a href="/js/">Cennik</a>
-        <a href="/python/">Kontakt</a>
+      <nav>
+        <ul>
+          <li>
+            <a className={css.navigationLink} href="#About">
+              O nas
+            </a>
+          </li>
+          <li>
+            <a className={css.navigationLink} href="#Contact">
+              Kontakt
+            </a>
+          </li>
+          <li>
+            <a className={css.navigationLink} href="#Gallery">
+              Galeria
+            </a>
+          </li>
+        </ul>
       </nav>
     </header>
   );
