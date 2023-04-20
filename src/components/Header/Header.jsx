@@ -1,22 +1,26 @@
 import css from "./Header.module.css";
+import image from "../../images/logo-domki.png"
 
 const Header = () => {
   return (
     <header>
-      <h1>Modrzewiowe Domki</h1>
-      <nav>
-        <ul>
-          <li>
+      <a className={css.name}>
+        <img className={css.logo} src={image} alt="logo domków"></img>
+        <p>Modrzewiowe Domki</p>
+      </a>
+      <nav className={css.navigation}>
+        <ul className={css.navigationList}>
+          <li className={css.navigationListItem}>
             <a className={css.navigationLink} href="#About">
               O nas
             </a>
           </li>
-          <li>
+          <li className={css.navigationListItem}>
             <a className={css.navigationLink} href="#Contact">
               Kontakt
             </a>
           </li>
-          <li>
+          <li className={css.navigationListItem}>
             <a className={css.navigationLink} href="#Gallery">
               Galeria
             </a>
