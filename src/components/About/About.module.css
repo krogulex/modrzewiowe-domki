@@ -1,3 +1,10 @@
+
+
 .About {
-margin-top: 150px;
+    padding: 15px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
 }

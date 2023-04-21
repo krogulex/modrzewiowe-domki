@@ -4,7 +4,7 @@ import image from "../../images/logo-domki.png"
 const Header = () => {
   return (
     <header>
-      <a className={css.name}>
+      <a className={css.name} href="#About">
         <img className={css.logo} src={image} alt="logo domków"></img>
         <p>Modrzewiowe Domki</p>
       </a>

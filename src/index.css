@@ -1,4 +1,5 @@
-@import-normalize;
+@import "normalize.css/normalize.css";
+@import './roots/roots.css';
 
 body {
   margin: 0;
@@ -7,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--third-color);
+  color: var(--primary-color);
 }
 
 html {
@@ -24,4 +27,20 @@ a {
 
 ul {
   padding: 0
+}
+
+h5::before {
+  content: "";
+  display: block;
+  height: 100px;
+  /* fixed header height*/
+  margin: -115px 0 0;
+  /* negative fixed header height */
+}
+h5 {
+  font-size: 0;
+  margin-block-start: 0;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }

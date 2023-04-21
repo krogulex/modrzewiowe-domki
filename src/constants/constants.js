@@ -1,7 +1,7 @@
-const colors = {
-    primaryColor: '#8B572A',
-    secondaryColor: '#594A2B',
-    backgroundColor: '#F3EFE0', 
+export const colors = {
+    primaryColor: '#766748',
+    secondColor: '#8B572A',
+    thirdColor: '#F3EFE0', 
     secondBackgroundColor: '#A8A878',
     tertiaryBackgoundColor: '#C2B280',
 }
