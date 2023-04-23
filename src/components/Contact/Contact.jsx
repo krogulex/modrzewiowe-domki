@@ -3,7 +3,7 @@ import { TextField } from "@mui/material";
 
 const Contact = () => {
   return (
-    <div>
+    <div  className={css.Contact}>
       <h5 id="Contact"></h5>
       <h2>Kontakt</h2>
       <address>

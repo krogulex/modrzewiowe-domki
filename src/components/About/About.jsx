@@ -55,34 +55,181 @@ const About = () => {
 
         <div>
           <h3>Udogodnienia</h3>
-            <ul>
-              <li>
-                <svg className={css.icon}>
-                  <use href={`${icons}#icon-house`}></use>
-                </svg>
-                domki 54m2
-              </li>
-              <li>
-                <svg className={css.icon}>
-                  <use href={`${icons}#icon-parking-sign`}></use>
-                </svg>
-                prywatny parking
-              </li>
-              <li></li>
-              <li></li>
-            </ul>
-            prywatny Parking, plaża w odległości 450m, prywatna łazienka, 2
-            pojedyńcze łóżka, 2 podwójne łóżka, 2 pokoje, salon, szafy, stoisko
-            do grilla, rowery, leżaki, wózek plażowy, kanapa parawany, WiFi,
-            telewizor, plac zabaw, trampolina, w pełni wyposażona kuchnia,
-            czajnik, lodówka, elektryczna płyta, naczynia, sztućce prysznic,
-            łóżeczko dla dzieci, krzesełko dla dzieci, zwierzęta akceptowane za
-            dodatkową opłatą
+          <ul className={css.amenitiesList}>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-house`}></use>
+              </svg>
+              domki 54m2
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-parking-sign`}></use>
+              </svg>
+              prywatny parking
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-beach`}></use>
+              </svg>
+              plaża w odległości 450 m
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-toilet`}></use>
+              </svg>
+              prywatna łazienka
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-shower`}></use>
+              </svg>
+              prysznic
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-single-bed`}></use>
+              </svg>
+              2 pojedyńcze łóżka
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-single-bed`}></use>
+              </svg>
+              2 podwójne łóżka
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-house`}></use>
+              </svg>
+              2 pokoje
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-sofa`}></use>
+              </svg>
+              salon
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-wardrobe`}></use>
+              </svg>
+              szafy
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-grill`}></use>
+              </svg>
+              grill
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-bicycle`}></use>
+              </svg>
+              rowery
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-lounger`}></use>
+              </svg>
+              leżaki
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-cart`}></use>
+              </svg>
+              wózek plażowy
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-map`}></use>
+              </svg>
+              parawany
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-wifi`}></use>
+              </svg>
+              WiFi
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-tv`}></use>
+              </svg>
+              telewizor
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-playground`}></use>
+              </svg>
+              plac zabaw
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-trampoline`}></use>
+              </svg>
+              trampolina
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-fork`}></use>
+              </svg>
+              w pełni wyposażona kuchnia
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-kettle`}></use>
+              </svg>
+              czajnik
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-fridge`}></use>
+              </svg>
+              lodówka
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-cooker-regulator`}></use>
+              </svg>
+              elektryczna płyta
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-plate`}></use>
+              </svg>
+              naczynia
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-fork`}></use>
+              </svg>
+              sztućce
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-baby-crib`}></use>
+              </svg>
+              łóżeczko dla dzieci
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-chair`}></use>
+              </svg>
+              krzesełko dla dzieci
+            </li>
+            <li className={css.amenitiesItem}>
+              <svg className={css.icon}>
+                <use href={`${icons}#icon-pets`}></use>
+              </svg>
+              zwierzęta akceptowane za dodatkową opłatą
+            </li>
+          </ul>
         </div>
         <h3>Atrakcje w pobliżu</h3>
         <p>
-          Nadmorska promenada, stadniny konne, jezioro Jamno, wiele restauracji,
-          atrakcje w Mielnie, poniemieckie bukry, latarnia morska w Gąskach i
+          Plaża w Sarbinowie, nadmorska promenada, jezioro Jamno, wiele restauracji i sklepów, szlaki piesze i rowerowe, latarnia morska w Gąskach 
+          atrakcje w Mielnie, poniemieckie bukry, molo w Chłopach, park linowy i
           wiele innych!
         </p>
       </div>
