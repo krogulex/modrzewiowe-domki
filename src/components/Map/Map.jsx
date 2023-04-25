@@ -1,7 +1,6 @@
-import { useMemo } from "react";
-import css from "./Map.module.css";
+/* import css from "./Map.module.css";
 
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript } from "@react-google-maps/api";
 
 export const Map = () => {
   const { isLoaded } = useLoadScript({
@@ -18,3 +17,4 @@ export const Map = () => {
     </GoogleMap>
   );
 };
+ */

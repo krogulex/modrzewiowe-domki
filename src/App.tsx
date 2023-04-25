@@ -16,6 +16,15 @@ const theme = createTheme({
       main: colors.primaryColor,
     },
   },
+  typography: {
+    button: {
+      textTransform: 'none',
+      letterSpacing: '0.1em',
+    },
+    fontSize: 12,
+    fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
+  },
+  
 });
 function App() {
   return (

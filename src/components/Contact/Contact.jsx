@@ -1,5 +1,6 @@
 import css from "./Contact.module.css";
-import { TextField } from "@mui/material";
+
+import { ContactForm } from "../ContactForm/ContactForm";
 
 import icons from "../../icons/symbol-defs.svg";
 
@@ -43,9 +44,8 @@ const Contact = () => {
             </li>
           </ul>
           <iframe
-          className={css.map}
+            className={css.map}
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9325.739327391402!2d15.9670371!3d54.2431906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700302da9bdde1f%3A0x25e6e63a0f214f2b!2sModrzewiowe%20Domki!5e0!3m2!1spl!2spl!4v1682419126130!5m2!1spl!2spl"
-            style={{border:'0'}}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -53,11 +53,7 @@ const Contact = () => {
         </address>
       </div>
       <div>
-        <form>
-          <TextField id="name" label="Imię" variant="outlined" />
-          <TextField id="phone" label="Numer telefonu" variant="outlined" />
-          <TextField id="text" label="Zapytanie" variant="outlined" />
-        </form>
+        <ContactForm></ContactForm>
       </div>
     </div>
   );

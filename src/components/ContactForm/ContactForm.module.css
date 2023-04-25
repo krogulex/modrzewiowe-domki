@@ -1,0 +1,12 @@
+@import '../../roots/roots.css';
+
+.card {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: var(    --third-color);
+}
+
+.formButton {
+    margin-top: 8px;
+}
