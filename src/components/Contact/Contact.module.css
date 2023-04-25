@@ -1,3 +1,33 @@
+@import '../../roots/roots.css';
+
 .Contact {
     padding: 15px;
+}
+.address {
+    font-style: normal;
+}
+.addressList {
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary-color);
+    
+}
+
+.addressList > * {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    fill: var(--primary-color);
+}
+.addressSubtitle {
+    display: flex;
+    align-items: center;
+}
+.map {
+    width: 350px;
+    height: 250px;
 }
