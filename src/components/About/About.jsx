@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <div className={css.About}>
-      <h5 id="About"></h5>
+      <h6 id="About"></h6>
       <div>
         <div>
           <h2>O nas</h2>
@@ -207,7 +207,7 @@ const About = () => {
               sztućce
             </li>
             <li className={css.amenitiesItem}>
-              <svg className={css.icon}>
+              <svg className={`${css.icon} ${css.iconCrib}`}>
                 <use href={`${icons}#icon-baby-crib`}></use>
               </svg>
               łóżeczko dla dzieci

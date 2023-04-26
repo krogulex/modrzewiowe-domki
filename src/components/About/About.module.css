@@ -1,5 +1,3 @@
-
-
 .About {
     padding: 15px;
 }
@@ -8,17 +6,23 @@
     width: 20px;
     height: 20px;
     margin-right: 7px;
+    fill: var(--primary-color);
 }
+
+.iconCrib {
+    stroke: var(--primary-color);
+}
+
 .amenitiesList {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 
 .amenitiesItem {
-list-style: none;
-display: flex;
-align-items: center;
-padding: 4px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 4px;
 }

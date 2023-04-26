@@ -21,8 +21,6 @@ export const ContactForm = () => {
     <Card
       className={css.card}
       sx={{
-        backgroundColor: "#ece5cd",
-        color: "#766748",
         fontSize: "0.6rem",
       }}
     >
@@ -74,7 +72,7 @@ export const ContactForm = () => {
                 fullWidth
                 required
                 multiline
-                rows={4}
+                rows={5}
               />
             </Grid>
             <Button

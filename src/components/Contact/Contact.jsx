@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className={css.Contact}>
       <div>
-        <h5 id="Contact"></h5>
+        <h6 id="Contact"></h6>
         <h2>Kontakt</h2>
         <address className={css.address}>
           <h4>Modrzewiowe Domki</h4>
@@ -40,7 +40,7 @@ const Contact = () => {
                 </svg>
                 Lokalizacja
               </h4>
-              Wrzosowa 10, 76-034, Sarbinowo, woj. zachodniopomorskie
+              ul. Wrzosowa 10, Sarbinowo, 76-034, woj. zachodniopomorskie
             </li>
           </ul>
           <iframe

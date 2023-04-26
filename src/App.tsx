@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Slider from "./components/Slider/Slider";
+import Footer from "./components/Footer/Footer";
 
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
@@ -14,27 +15,42 @@ const theme = createTheme({
   palette: {
     primary: {
       main: colors.primaryColor,
+      contrastText: "#000",
     },
   },
   typography: {
     button: {
-      textTransform: 'none',
-      letterSpacing: '0.1em',
+      color: "#000",
+      textTransform: "none",
+      letterSpacing: "0.1em",
+      fontSize: 12,
     },
-    fontSize: 12,
-    fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
+    fontSize: 10,
+    fontFamily: [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      "Segoe UI",
+      "Roboto",
+      "Oxygen",
+      "Ubuntu",
+      "Cantarell",
+      "Fira",
+      "Droid Sans",
+      "Helvetica Neue",
+      "sans-serif",
+    ].join(","),
   },
-  
 });
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div>
         <Header></Header>
-        <Slider></Slider>
+         <Slider></Slider> 
         <About></About>
         <Contact></Contact>
         <Gallery></Gallery>
+        <Footer></Footer>
       </div>
     </ThemeProvider>
   );

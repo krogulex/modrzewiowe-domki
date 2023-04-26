@@ -1,36 +1,30 @@
 @import "normalize.css/normalize.css";
 @import './roots/roots.css';
+@import './components/Gallery/Gallery.css';
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--third-color);
-  color: var(--primary-color);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #000;
 }
 
 ul {
   padding: 0
 }
 
-h5::before {
+h6::before {
   content: "";
   display: block;
   height: 100px;
@@ -38,7 +32,7 @@ h5::before {
   margin: -115px 0 0;
   /* negative fixed header height */
 }
-h5 {
+h6 {
   font-size: 0;
   margin-block-start: 0;
   margin-block-end: 0px;
