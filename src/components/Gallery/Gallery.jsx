@@ -40,10 +40,10 @@ const Gallery = () => {
         }}
         modules={[FreeMode, Navigation, Thumbs]}
         grabCursor={true}
-        className='product-images-slider'
+        className={css.swiper}
       >
         {images.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide         className={css.swiperSlide} key={index}>
             <img src={item} alt="zdjęcie" />
           </SwiperSlide>
         ))}
@@ -56,11 +56,11 @@ const Gallery = () => {
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
-        className='product-images-slider-thumbs'
+        className={`${css.swiperThumbs} swiper-thumbs`}
       >
         {images.map((item, index) => (
-          <SwiperSlide key={index}>
-                      <div className="product-images-slider-thumbs-wrapper">
+          <SwiperSlide         className={css.swiperSlide} key={index}>
+            <div className={css.swiperThumbsWrapper}>
               <img src={item} alt="zdjęcie" />
             </div>
           </SwiperSlide>

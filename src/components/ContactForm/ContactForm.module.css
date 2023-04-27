@@ -4,9 +4,12 @@
     width: 350px;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: var(    --third-color);
 }
 
 .formButton {
     margin-top: 8px;
+}
+.ask {
+    margin-bottom: 20px;
+    font-size: 22px;
 }
