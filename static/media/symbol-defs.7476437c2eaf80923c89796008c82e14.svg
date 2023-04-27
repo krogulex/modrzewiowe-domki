@@ -49,16 +49,16 @@
 <path d="M14.937 17.229c-0.265 0-0.48 0.215-0.48 0.48v2.242c0 0.265 0.215 0.48 0.48 0.48s0.48-0.215 0.48-0.48v-2.242c0-0.265-0.215-0.48-0.48-0.48zM18.71 17.229c-0.265 0-0.48 0.215-0.48 0.48v2.242c0 0.265 0.215 0.48 0.48 0.48s0.48-0.215 0.48-0.48v-2.242c0-0.265-0.215-0.48-0.48-0.48zM22.483 17.229c-0.265 0-0.48 0.215-0.48 0.48v2.242c0 0.265 0.215 0.48 0.48 0.48s0.48-0.215 0.48-0.48v-2.242c0-0.265-0.215-0.48-0.48-0.48z"></path>
 </symbol>
 <symbol id="icon-baby-crib" viewBox="0 0 32 32">
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M0.5 7.42h31v14.105h-31v-14.105z"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M0.5 3.32v25.36"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M31.5 3.32v25.36"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.5" d="M0.5 21.53h15.5v4.985h-15.5v-4.985z"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.5" d="M16 21.53h15.5v4.985h-15.5v-4.985z"></path>
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M0.5 3.32v25.36"></path>
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M0.5 7.42h31v14.105h-31v-14.105z"></path>
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M31.5 3.32v25.36"></path>
+<path fill="none"  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.5" d="M0.5 21.53h15.5v4.985h-15.5v-4.985z"></path>
+<path fill="none"  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.5" d="M16 21.53h15.5v4.985h-15.5v-4.985z"></path>
 <path d="M9.105 24.255c0 0.472-0.383 0.855-0.855 0.855s-0.855-0.383-0.855-0.855c0-0.472 0.383-0.855 0.855-0.855s0.855 0.383 0.855 0.855z"></path>
 <path d="M24.605 24.255c0 0.472-0.383 0.855-0.855 0.855s-0.855-0.383-0.855-0.855c0-0.472 0.383-0.855 0.855-0.855s0.855 0.383 0.855 0.855z"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M8.25 21.53v-14.11"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M16 21.53v-14.11"></path>
-<path fill="none" stroke="#222" style="stroke: var(--color1, #222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M23.75 21.53v-14.11"></path>
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M8.25 21.53v-14.11"></path>
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M16 21.53v-14.11"></path>
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M23.75 21.53v-14.11"></path>
 </symbol>
 <symbol id="icon-chair" viewBox="0 0 32 32">
 <path d="M8.5 2c-0.276 0-0.5 0.224-0.5 0.5v0 1.5h-2.5c-0.276 0-0.5 0.224-0.5 0.5v0 7c0 0.276 0.224 0.5 0.5 0.5v0h2.5v5h-2.5c-0.276 0-0.5 0.224-0.5 0.5v0 2c0 0.276 0.224 0.5 0.5 0.5v0h1.5v11.5c0 0.276 0.224 0.5 0.5 0.5v0h2c0.276 0 0.5-0.224 0.5-0.5v0-7.5h11v7.5c0 0.276 0.224 0.5 0.5 0.5v0h2c0.276 0 0.5-0.224 0.5-0.5v0-11.5h1.5c0.276 0 0.5-0.224 0.5-0.5v0-2c0-0.276-0.224-0.5-0.5-0.5v0h-2.5v-5h2.5c0.276 0 0.5-0.224 0.5-0.5v0-7c0-0.276-0.224-0.5-0.5-0.5v0h-2.5v-1.5c0-0.276-0.224-0.5-0.5-0.5v0h-2c-0.276 0-0.5 0.224-0.5 0.5v0 1.5h-9v-1.5c0-0.276-0.224-0.5-0.5-0.5v0h-2zM9 3h1v1h-1v-1zM21 3h1v1h-1v-1zM6 5h14.424c0.022 0.003 0.047 0.005 0.073 0.005s0.051-0.002 0.076-0.006l-0.003 0h1.854c0.022 0.003 0.047 0.005 0.073 0.005s0.051-0.002 0.076-0.006l-0.003 0h2.43v6h-19v-6zM9 12h1v5h-1v-5zM11 12h9v5h-9v-5zM21 12h1v5h-1v-5zM6 18h19v1h-19v-1zM8 20h1v11h-1v-11zM10 20h11v3h-11v-3zM22 20h1v11h-1v-11z"></path>
