@@ -7,7 +7,6 @@ import icons from "../../icons/symbol-defs.svg";
 import Button from "@mui/material/Button";
 
 const About = () => {
-  const [readMore, setReadMore] = useState(false);
 
   const [isExpanded, setExpanded] = useState(false);
 
@@ -15,7 +14,8 @@ const About = () => {
 
   return (
     <div className={css.About}>
-      <h6 id="About"></h6>
+      {// eslint-disable-next-line
+      }<h6 id="About">'</h6>
       <div>
         <div>
           <h2>O nas</h2>

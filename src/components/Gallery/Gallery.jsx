@@ -25,7 +25,8 @@ const Gallery = () => {
 
   return (
     <div className={css.Gallery}>
-      <h6 id="Gallery"></h6>
+            {// eslint-disable-next-line
+      }<h6 id="Gallery">'</h6>
       <h2>Galeria</h2>
       <Swiper
         style={{

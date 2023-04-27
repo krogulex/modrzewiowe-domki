@@ -15,7 +15,9 @@ const theme = createTheme({
   palette: {
     primary: {
       main: colors.primaryColor,
+      dark: colors.secondColor,
       contrastText: "#000",
+      
     },
   },
   typography: {
@@ -24,6 +26,9 @@ const theme = createTheme({
       textTransform: "none",
       letterSpacing: "0.1em",
       fontSize: 12,
+      '&:hover': {
+        backgroundColor: colors.secondColor,
+    },
     },
     fontSize: 10,
     fontFamily: [
@@ -40,7 +45,9 @@ const theme = createTheme({
       "sans-serif",
     ].join(","),
   },
+
 });
+
 function App() {
   return (
     <ThemeProvider theme={theme}>

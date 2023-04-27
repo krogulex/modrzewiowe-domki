@@ -2,5 +2,13 @@
     --primary-color: #0c9f9f;
     --secondary-color: #18d4c1;
     --tertiary-color:#F3EFE0; 
+    
+    /* root for swiper */
+    --swiper-theme-color: var(--primary-color);
 
+    --swiper-pagination-bullet-width: 12px;
+    --swiper-pagination-bullet-height: 12px;;
+    --swiper-pagination-bullet-horizontal-gap: 10px;
+
+    --swiper-navigation-size: 30px;
   }

@@ -4,7 +4,6 @@ import Slide3 from "../../images/plac-zabaw1.jpg";
 
 import css from "./Slider.module.css";
 
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

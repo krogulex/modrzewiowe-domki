@@ -1,7 +1,7 @@
 @import '../../roots/roots.css';
 
 .card {
-    width: 350px;
+    max-width: 600px;
     margin: 0 auto;
     margin-top: 20px;
 }

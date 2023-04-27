@@ -16,6 +16,7 @@ header {
     align-items: center;
     font-size: 24px;
     font-weight: 600;
+    transition: 300ms;
 
 }
 .logo {
@@ -37,7 +38,11 @@ header {
 }
 .navigationLink {
     text-decoration: none;
+    transition: 300ms;
 }
 .navigationLink:hover {
+    color: var(--secondary-color);
+}
+.name:hover {
     color: var(--secondary-color);
 }
