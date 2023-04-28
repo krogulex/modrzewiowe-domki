@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/modrzewiowe-domki/static/css/main.1d3a8ad8.css",
-    "main.js": "/modrzewiowe-domki/static/js/main.6b75acaa.js",
+    "main.css": "/modrzewiowe-domki/static/css/main.5d39c399.css",
+    "main.js": "/modrzewiowe-domki/static/js/main.4529b29f.js",
     "static/js/787.a28d2428.chunk.js": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js",
     "static/media/plac-zabaw2.jpg": "/modrzewiowe-domki/static/media/plac-zabaw2.79e0bb571f2d9d1c3a62.jpg",
     "static/media/plac-zabaw1.jpg": "/modrzewiowe-domki/static/media/plac-zabaw1.0e0f6e11a760e937b92f.jpg",
@@ -10,12 +10,12 @@
     "static/media/symbol-defs.svg": "/modrzewiowe-domki/static/media/symbol-defs.7476437c2eaf80923c89796008c82e14.svg",
     "static/media/logo-domki.png": "/modrzewiowe-domki/static/media/logo-domki.f6f4536b9955f5d3b118.png",
     "index.html": "/modrzewiowe-domki/index.html",
-    "main.1d3a8ad8.css.map": "/modrzewiowe-domki/static/css/main.1d3a8ad8.css.map",
-    "main.6b75acaa.js.map": "/modrzewiowe-domki/static/js/main.6b75acaa.js.map",
+    "main.5d39c399.css.map": "/modrzewiowe-domki/static/css/main.5d39c399.css.map",
+    "main.4529b29f.js.map": "/modrzewiowe-domki/static/js/main.4529b29f.js.map",
     "787.a28d2428.chunk.js.map": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3a8ad8.css",
-    "static/js/main.6b75acaa.js"
+    "static/css/main.5d39c399.css",
+    "static/js/main.4529b29f.js"
   ]
 }
