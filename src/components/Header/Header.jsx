@@ -1,10 +1,11 @@
 import css from "./Header.module.css";
-import image from "../../images/logo-domki.png"
+import image from "../../images/logo-domki.png";
+import { Button } from "@mui/material";
 
-const Header = () => {
+const Header = ({ toggleModal }) => {
   return (
     <header>
-      <a className={css.name} href="." >
+      <a className={css.name} href=".">
         <img className={css.logo} src={image} alt="logo domków"></img>
         <p>Modrzewiowe Domki</p>
       </a>
@@ -27,6 +28,18 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <Button
+        sx={{
+          backgroundColor: "#14326a",
+          "&:hover": {
+            backgroundColor: "#2a57aa",
+          },
+        }}
+        variant="contained"
+        onClick={toggleModal}
+      >
+        Zarezerwuj!
+      </Button>
     </header>
   );
 };

@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #0c9f9f;
-    --secondary-color: #18d4c1;
-    --tertiary-color:#F3EFE0; 
+    --primary-color: #2a57aa;
+    --secondary-color: #14326a;
+    --tertiary-color:#fff; 
     
     /* root for swiper */
     --swiper-theme-color: var(--primary-color);

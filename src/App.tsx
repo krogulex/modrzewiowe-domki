@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { colors } from "./constants/constants";
 
 import Header from "./components/Header/Header";
@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Slider from "./components/Slider/Slider";
 import Footer from "./components/Footer/Footer";
+import Modal from "./components/Modal/Modal"
 
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
@@ -16,19 +17,17 @@ const theme = createTheme({
     primary: {
       main: colors.primaryColor,
       dark: colors.secondColor,
-      contrastText: "#000",
-      
+      contrastText: "#fff",
     },
   },
   typography: {
     button: {
-      color: "#000",
       textTransform: "none",
       letterSpacing: "0.1em",
       fontSize: 12,
-      '&:hover': {
+      "&:hover": {
         backgroundColor: colors.secondColor,
-    },
+      },
     },
     fontSize: 10,
     fontFamily: [
@@ -45,20 +44,24 @@ const theme = createTheme({
       "sans-serif",
     ].join(","),
   },
-
 });
 
 function App() {
+  const [modal, setModal] = React.useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
   return (
     <ThemeProvider theme={theme}>
-      <div>
-        <Header></Header>
-         <Slider></Slider> 
-        <About></About>
-        <Contact></Contact>
-        <Gallery></Gallery>
-        <Footer></Footer>
-      </div>
+      <Header toggleModal={toggleModal}></Header>
+      <Slider></Slider>
+      <About></About>
+      <Gallery></Gallery>
+      <Contact></Contact>
+      <Footer></Footer>
+      {modal && <Modal toggleModal={toggleModal}></Modal>}
     </ThemeProvider>
   );
 }
