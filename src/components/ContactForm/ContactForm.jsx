@@ -5,27 +5,37 @@ import {
   Grid,
   TextField,
   Typography,
+  Alert,
+  AlertTitle,
 } from "@mui/material";
+
 import css from "./ContactForm.module.css";
+import icons from "../../icons/symbol-defs.svg";
 
 import { useState } from "react";
 import { send } from "emailjs-com";
 
+
 export const ContactForm = () => {
   const [toSend, setToSend] = useState({
     from_name: "",
-    from_surname: "",
     to_name: "Modrzewiowe Domki",
     message: "",
     reply_to: "",
     phone: "",
   });
+  const [alert, setAlert] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.currentTarget;
 
-    send(process.env.REACT_APP_EMAILSERVICE_API_KEY, "template_gb6bs67", toSend, "leA1bBvklfwVhKpjl")
+    send(
+      process.env.REACT_APP_EMAILSERVICE_API_KEY,
+      "template_gb6bs67",
+      toSend,
+      "leA1bBvklfwVhKpjl"
+    )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
@@ -46,35 +56,30 @@ export const ContactForm = () => {
       className={css.card}
       sx={{
         fontSize: "0.6rem",
+        boxShadow: "0",
       }}
     >
       <CardContent>
         <Typography gutterBottom className={css.ask} variant="h4">
-          Spytaj o dostępność!
+          Zadzwoń
+          <a className={css.contactLink} href="tel:+48694225226">
+          <svg className={css.icon}>
+                <use href={`${icons}#icon-phone`}></use>
+              </svg>
+            +48 694 225 226
+          </a>
+          lub spytaj o dostępność!
         </Typography>
         <form onSubmit={handleSubmit}>
           <Grid container spacing={1}>
-            <Grid xs={12} sm={6} item>
+            <Grid xs={12} item>
               <TextField
                 id="name"
                 name="from_name"
                 type=""
-                label="Imię"
+                label="Imię i nazwisko"
                 variant="outlined"
-                placeholder="Napisz swoje imię"
-                fullWidth
-                required
-                onChange={handleChange}
-              />
-            </Grid>
-            <Grid xs={12} sm={6} item>
-              <TextField
-                id="surname"
-                name="from_surname"
-                type=""
-                label="Nazwisko"
-                placeholder="Napisz swoje nazwisko"
-                variant="outlined"
+                placeholder="Np. Jan Kowalski"
                 fullWidth
                 required
                 onChange={handleChange}
@@ -86,7 +91,7 @@ export const ContactForm = () => {
                 name="phone"
                 type="number"
                 label="Numer telefonu"
-                placeholder="Napisz swój numer"
+                placeholder="Np. +48 123 456 789"
                 variant="outlined"
                 fullWidth
                 required
@@ -99,7 +104,7 @@ export const ContactForm = () => {
                 name="reply_to"
                 type="email"
                 label="Email"
-                placeholder="Napisz swój email"
+                placeholder="Np. jankowalski@gmail.com"
                 variant="outlined"
                 fullWidth
                 required
@@ -120,6 +125,14 @@ export const ContactForm = () => {
                 onChange={handleChange}
               />
             </Grid>
+            {alert ? (
+              <Alert severity="success" className={css.alert}>
+                <AlertTitle>Sukces</AlertTitle>
+                Wiadomość została wysłana — <strong>czekaj na odpowiedź</strong>
+              </Alert>
+            ) : (
+              ""
+            )}
             <Button
               sx={{
                 marginTop: "8px",
@@ -129,6 +142,7 @@ export const ContactForm = () => {
               type="submit"
               variant="contained"
               fullWidth
+              onClick={() => setAlert(true)}
             >
               Wyślij
             </Button>

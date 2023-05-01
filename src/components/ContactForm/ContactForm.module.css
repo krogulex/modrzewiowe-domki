@@ -11,5 +11,24 @@
 }
 .ask {
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 18px;
+}
+.alert {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.contactLink {
+    transition: color 300ms;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 7px;
+    fill: #000;
+}
+.contactLink:hover {
+    color: var(--primary-color);
+    fill: var(--primary-color);
 }
