@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: max(1em, 12px);
 }
 
 html {
@@ -26,8 +27,8 @@ ul {
 h6::before {
   content: "";
   display: block;
-  height: 100px;
-  margin: -115px 0 0;
+  height: 130px;
+  margin: -130px 0 0;
 }
 h6 {
   font-size: 0;

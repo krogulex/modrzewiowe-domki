@@ -7,10 +7,13 @@ import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Slider from "./components/Slider/Slider";
 import Footer from "./components/Footer/Footer";
-import Modal from "./components/Modal/Modal"
+import Modal from "./components/Modal/Modal";
 
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import { pl } from "date-fns/locale";
 
 const theme = createTheme({
   palette: {
@@ -54,15 +57,17 @@ function App() {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <Header toggleModal={toggleModal}></Header>
-      <Slider></Slider>
-      <About></About>
-      <Gallery></Gallery>
-      <Contact></Contact>
-      <Footer></Footer>
-      {modal && <Modal toggleModal={toggleModal}></Modal>}
-    </ThemeProvider>
+    <LocalizationProvider adapterLocale={pl}  localeText={{ cancelButtonLabel: 'Anuluj', okButtonLabel: 'Zapisz', todayButtonLabel: 'vhu',}} dateAdapter={AdapterDateFns}>
+      <ThemeProvider theme={theme}>
+        <Header toggleModal={toggleModal}></Header>
+        <Slider></Slider>
+        <About></About>
+        <Gallery></Gallery>
+        <Contact></Contact>
+        <Footer></Footer>
+        {modal && <Modal toggleModal={toggleModal}></Modal>}
+      </ThemeProvider>
+    </LocalizationProvider>
   );
 }
 

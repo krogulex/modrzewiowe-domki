@@ -14,11 +14,14 @@ import img1 from "../../images/domki-przód.png";
 import img2 from "../../images/domki-tył.jpg";
 import img3 from "../../images/plac-zabaw1.jpg";
 import img4 from "../../images/plac-zabaw2.jpg";
-import img5 from "../../images/domki-przód.png";
-import img6 from "../../images/domki-tył.jpg";
-import img7 from "../../images/plac-zabaw1.jpg";
+import img5 from "../../images/domki-tył2.jpg";
+import img6 from "../../images/salon.jpg";
+import img7 from "../../images/kuchnia.jpg";
+import img8 from "../../images/łazienka.jpg";
+import img9 from "../../images/pokój1.jpg";
+import img10 from "../../images/pokój2.jpg";
 
-const images = [img1, img2, img3, img4, img5, img6, img7];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
 const Gallery = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);

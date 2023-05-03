@@ -3,7 +3,7 @@ body.active-modal {
 }
 
 .modal {
-    z-index: 2000;
+    z-index: 1200;
     position: fixed;
     left: 0;
     right: 0;
@@ -35,15 +35,15 @@ body.active-modal {
 
 .modalContent {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
     background: #fff;
     padding: 14px 28px;
     border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 650px;
+    width: 80%;
 }
 
 .icon {
