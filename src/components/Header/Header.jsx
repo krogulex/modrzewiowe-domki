@@ -28,19 +28,20 @@ const Header = ({ toggleModal }) => {
           </li>
         </ul>
       </nav>
-      <Button
-        className={css.button}
-        sx={{
-          backgroundColor: "#14326a",
-          "&:hover": {
-            backgroundColor: "#2a57aa",
-          },
-        }}
-        variant="contained"
-        onClick={toggleModal}
-      >
-        Zarezerwuj!
-      </Button>
+      <div className={css.button}>
+        <Button
+          sx={{
+            backgroundColor: "#14326a",
+            "&:hover": {
+              backgroundColor: "#2a57aa",
+            },
+          }}
+          variant="contained"
+          onClick={toggleModal}
+        >
+          Zarezerwuj!
+        </Button>
+      </div>
     </header>
   );
 };

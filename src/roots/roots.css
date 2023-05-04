@@ -12,3 +12,15 @@
 
     --swiper-navigation-size: 30px;
   }
+
+  @media screen and (min-width: 768px) {
+    :root {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    :root {
+      font-size: 24px;
+    }
+  }

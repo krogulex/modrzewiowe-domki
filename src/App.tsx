@@ -27,12 +27,18 @@ const theme = createTheme({
     button: {
       textTransform: "none",
       letterSpacing: "0.1em",
-      fontSize: 12,
+      fontSize: 14,
+      '@media (min-width:768px)': {
+        fontSize: 16,
+      },
+      '@media (min-width:1024px)': {
+        fontSize: 20,
+      },
       "&:hover": {
         backgroundColor: colors.secondColor,
       },
     },
-    fontSize: 10,
+    fontSize: 12,
     fontFamily: [
       "-apple-system",
       "BlinkMacSystemFont",
