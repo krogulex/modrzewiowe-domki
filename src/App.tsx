@@ -29,16 +29,16 @@ const theme = createTheme({
       letterSpacing: "0.1em",
       fontSize: 14,
       '@media (min-width:768px)': {
-        fontSize: 16,
+        fontSize: 15,
       },
       '@media (min-width:1024px)': {
-        fontSize: 19,
+        fontSize: 18,
       },
       "&:hover": {
         backgroundColor: colors.secondColor,
       },
     },
-    fontSize: 12,
+    fontSize: 10,
     fontFamily: [
       "-apple-system",
       "BlinkMacSystemFont",
