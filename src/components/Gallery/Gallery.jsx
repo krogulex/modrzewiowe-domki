@@ -27,7 +27,7 @@ const Gallery = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <div className={css.Gallery}>
+    <div className={css.gallery}>
             {// eslint-disable-next-line
       }<h6 id="Gallery">'</h6>
       <h2>Galeria</h2>

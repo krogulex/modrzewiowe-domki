@@ -1,36 +1,42 @@
-@import '../../roots/roots.css';
-
-.Contact {
+.contact {
     padding: 15px;
     padding-bottom: 30px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 .address {
     font-style: normal;
 }
+
 .addressList {
     text-decoration: none;
     list-style: none;
-    
+
 }
 
 .addressListItem {
     font-weight: 600;
 }
 
-.addressList > * {
+.addressList>* {
     margin: 10px 0;
     line-height: 1.6;
 }
+
 .icon {
     width: 20px;
     height: 20px;
     margin-right: 7px;
     fill: var(--primary-color);
 }
+
 .addressSubtitle {
     display: flex;
     align-items: center;
 }
+
 .map {
     display: block;
     width: 100%;
@@ -39,11 +45,44 @@
     border: 0;
     margin: 0 auto;
     border-radius: 4px;
-    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .contactLink {
     transition: color 300ms;
 }
+
 .contactLink:hover {
     color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+
+    .contactContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 30px;
+    }
+
+    .contactLeft {
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+
+    .map {
+        flex-grow: 1;
+        flex-basis: 0;
+        align-self: center;
+        justify-content: flex-end;
+        height: 360px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .aboutContent {
+        column-gap: 50px;
+    }
+
+
 }

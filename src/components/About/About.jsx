@@ -7,17 +7,18 @@ import icons from "../../icons/symbol-defs.svg";
 import Button from "@mui/material/Button";
 
 const About = () => {
-
   const [isExpanded, setExpanded] = useState(false);
 
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
   return (
-    <div className={css.About}>
-      {// eslint-disable-next-line
-      }<h6 id="About">'</h6>
-      <div>
-        <div>
+    <div className={css.about}>
+      {
+        // eslint-disable-next-line
+      }
+      <h6 id="About">'</h6>
+      <div className={css.aboutContent}>
+        <div className={css.aboutLeft}>
           <h2>O nas</h2>
           <p>
             Modrzewiowe domki nad morzem to świetny wybór na wakacje dla
@@ -53,7 +54,7 @@ const About = () => {
           </Button>
         </div>
 
-        <div>
+        <div className={css.aboutRight}>
           <h3>Udogodnienia</h3>
           <ul className={css.amenitiesList}>
             <li className={css.amenitiesItem}>
@@ -225,13 +226,14 @@ const About = () => {
               zwierzęta akceptowane za dodatkową opłatą
             </li>
           </ul>
+          <h3>Atrakcje w pobliżu</h3>
+          <p>
+            Plaża w Sarbinowie, nadmorska promenada, jezioro Jamno, wiele
+            restauracji i sklepów, szlaki piesze i rowerowe, latarnia morska w
+            Gąskach atrakcje w Mielnie, poniemieckie bukry, molo w Chłopach,
+            park linowy i wiele innych!
+          </p>
         </div>
-        <h3>Atrakcje w pobliżu</h3>
-        <p>
-          Plaża w Sarbinowie, nadmorska promenada, jezioro Jamno, wiele restauracji i sklepów, szlaki piesze i rowerowe, latarnia morska w Gąskach 
-          atrakcje w Mielnie, poniemieckie bukry, molo w Chłopach, park linowy i
-          wiele innych!
-        </p>
       </div>
     </div>
   );

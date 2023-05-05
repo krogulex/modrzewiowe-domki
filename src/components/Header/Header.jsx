@@ -7,7 +7,7 @@ const Header = ({ toggleModal }) => {
     <header>
       <a className={css.name} href=".">
         <img className={css.logo} src={image} alt="logo domków"></img>
-        <h2>Modrzewiowe Domki</h2>
+        <h2 className={css.nameText}>Modrzewiowe Domki</h2>
       </a>
       <nav className={css.navigation}>
         <ul className={css.navigationList}>

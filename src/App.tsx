@@ -32,7 +32,7 @@ const theme = createTheme({
         fontSize: 16,
       },
       '@media (min-width:1024px)': {
-        fontSize: 20,
+        fontSize: 19,
       },
       "&:hover": {
         backgroundColor: colors.secondColor,
