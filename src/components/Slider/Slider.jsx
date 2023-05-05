@@ -11,9 +11,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/effect-fade";
 
 // import required modules
-import { Autoplay, Pagination} from "swiper";
+import { Autoplay, Pagination, EffectFade} from "swiper";
 
 const Slider = () => {
   return (
@@ -28,7 +29,8 @@ const Slider = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay, Pagination]}
+        effect={"fade"}
+        modules={[Autoplay, Pagination, EffectFade]}
         className={css.swiper}
       >
         <SwiperSlide className={css.swiperSlide}>

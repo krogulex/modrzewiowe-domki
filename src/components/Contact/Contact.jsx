@@ -5,10 +5,8 @@ import icons from "../../icons/symbol-defs.svg";
 const Contact = () => {
   return (
     <div className={css.contact}>
-      {
-        // eslint-disable-next-line
-      }
-      <h6 id="Contact"></h6>
+      { // eslint-disable-next-line
+      }<h6 id="Contact"></h6>
       <div className={css.contactContent}>
         <div className={css.contactLeft}>
           <h2>Kontakt</h2>
