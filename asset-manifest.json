@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/modrzewiowe-domki/static/css/main.757cc4d0.css",
-    "main.js": "/modrzewiowe-domki/static/js/main.2dbec0f3.js",
+    "main.css": "/modrzewiowe-domki/static/css/main.2b6c05b6.css",
+    "main.js": "/modrzewiowe-domki/static/js/main.cdb9a3f2.js",
     "static/js/787.a28d2428.chunk.js": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js",
     "static/media/plac-zabaw2.jpg": "/modrzewiowe-domki/static/media/plac-zabaw2.79e0bb571f2d9d1c3a62.jpg",
     "static/media/plac-zabaw1.jpg": "/modrzewiowe-domki/static/media/plac-zabaw1.0e0f6e11a760e937b92f.jpg",
     "static/media/domki-tył2.jpg": "/modrzewiowe-domki/static/media/domki-tył2.f6fae74aa0d3bea67408.jpg",
+    "static/media/bałtyk.png": "/modrzewiowe-domki/static/media/bałtyk.fc7f04bca1376402fb57.png",
     "static/media/domki-przód.png": "/modrzewiowe-domki/static/media/domki-przód.e6ca5b8e896240952bc7.png",
     "static/media/domki-tył.jpg": "/modrzewiowe-domki/static/media/domki-tył.549ed7cfcffabc6b9eac.jpg",
     "static/media/pokój1.jpg": "/modrzewiowe-domki/static/media/pokój1.13166ea82065bdefeb80.jpg",
@@ -16,12 +17,12 @@
     "static/media/symbol-defs.svg": "/modrzewiowe-domki/static/media/symbol-defs.a8452902995a40cb7c500f8ee32987f9.svg",
     "static/media/logo-domki.png": "/modrzewiowe-domki/static/media/logo-domki.f6f4536b9955f5d3b118.png",
     "index.html": "/modrzewiowe-domki/index.html",
-    "main.757cc4d0.css.map": "/modrzewiowe-domki/static/css/main.757cc4d0.css.map",
-    "main.2dbec0f3.js.map": "/modrzewiowe-domki/static/js/main.2dbec0f3.js.map",
+    "main.2b6c05b6.css.map": "/modrzewiowe-domki/static/css/main.2b6c05b6.css.map",
+    "main.cdb9a3f2.js.map": "/modrzewiowe-domki/static/js/main.cdb9a3f2.js.map",
     "787.a28d2428.chunk.js.map": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.757cc4d0.css",
-    "static/js/main.2dbec0f3.js"
+    "static/css/main.2b6c05b6.css",
+    "static/js/main.cdb9a3f2.js"
   ]
 }
