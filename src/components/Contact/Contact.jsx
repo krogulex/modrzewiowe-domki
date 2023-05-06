@@ -4,9 +4,11 @@ import icons from "../../icons/symbol-defs.svg";
 
 const Contact = () => {
   return (
-    <div className={css.contact}>
-      { // eslint-disable-next-line
-      }<h6 id="Contact"></h6>
+    <div className={`${css.contact} reveal fade-bottom`}>
+      {
+        // eslint-disable-next-line
+      }
+      <h6 id="Contact"></h6>
       <div className={css.contactContent}>
         <div className={css.contactLeft}>
           <h2>Kontakt</h2>
@@ -50,14 +52,17 @@ const Contact = () => {
             </ul>
           </address>
         </div>
-
-        <iframe
-          title="location"
-          className={css.map}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2077.0642488971757!2d15.964714183084363!3d54.24334831016137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700302da9bdde1f%3A0x25e6e63a0f214f2b!2sModrzewiowe%20Domki!5e0!3m2!1spl!2spl!4v1683283826320!5m2!1spl!2spl"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <div>
+        <h6 id="Mapa"></h6>
+          <h2>Mapa</h2>
+          <iframe
+            title="location"
+            className={css.map}
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9325.739327391402!2d15.9670371!3d54.2431906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700302da9bdde1f%3A0x25e6e63a0f214f2b!2sModrzewiowe%20Domki!5e0!3m2!1spl!2spl!4v1683387315021!5m2!1spl!2spl"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </div>
   );

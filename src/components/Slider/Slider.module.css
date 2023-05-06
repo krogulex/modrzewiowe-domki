@@ -38,8 +38,8 @@
   }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1024px) {
   .swiper {
-    height: 800px;
+    height: calc(100vh - 70px);
   }
 }

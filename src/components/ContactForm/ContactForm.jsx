@@ -28,12 +28,9 @@ export const ContactForm = () => {
     departue_date: "",
   });
   const [alert, setAlert] = useState(false);
-  const [selectedDate, setSelectedDate] = useState(null);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const form = event.currentTarget;
-    setSelectedDate(null);
 
     send(
       process.env.REACT_APP_EMAILSERVICE_API_KEY,
@@ -54,18 +51,16 @@ export const ContactForm = () => {
   };
 
   return (
-    //Zmienić font size globalnie dla mui i ogólnie
     <Card
       className={css.card}
       sx={{
-        fontSize: "0.6rem",
         boxShadow: "0",
       }}
     >
       <CardContent>
         <Typography
           className={css.ask}
-          sx={{ marginBottom: "20px", lineHeight: '1.4' }}
+          sx={{ marginBottom: "20px", lineHeight: '1.4',         fontSize: "16px", }}
           variant="h4"
         >
           Zadzwoń
@@ -92,7 +87,7 @@ export const ContactForm = () => {
                 onChange={handleChange}
               />
             </Grid>
-            <Grid xs={12} sm={6} item>
+            <Grid xs={6} sm={6} item>
               <DatePicker
                 label="Data przyjazdu"
                 name="arrival_date"
@@ -100,12 +95,13 @@ export const ContactForm = () => {
                 onChange={(newValue) => {
                   setToSend({
                     ...toSend,
+                    // eslint-disable-next-line
                     ["arrival_date"]: moment(newValue).format("D.MM.YYYY"),
                   });
                 }}
               ></DatePicker>
             </Grid>
-            <Grid xs={12} sm={6} item>
+            <Grid xs={6} sm={6} item>
               <DatePicker
                 label="Data odjazdu"
                 name="departue_date"
@@ -115,6 +111,7 @@ export const ContactForm = () => {
                 onChange={(newValue) => {
                   setToSend({
                     ...toSend,
+                    // eslint-disable-next-line
                     ["departue_date"]: moment(newValue).format("D.MM.YYYY"),
                   });
                 }}
@@ -156,7 +153,7 @@ export const ContactForm = () => {
                 fullWidth
                 required
                 multiline
-                rows={6}
+                rows={5}
                 onChange={handleChange}
               />
             </Grid>

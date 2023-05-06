@@ -1,0 +1,49 @@
+
+
+.box {
+    height: 90px;
+    background-color: var(--primary-color);
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bałtyk.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slogan {
+    margin-top: -30px;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+
+    .box {
+        height: 70px;
+    }
+    .backgroundImage {
+        height: 500px;
+    }
+    .slogan {
+        font-size: 36px;
+        padding: 40px;
+    }
+      
+  }
+  
+  @media (min-width: 1024px) {
+    .backgroundImage {
+        height: calc(80vh - 70px);
+    }
+    .slogan {
+        font-size: 46px;
+    }
+}

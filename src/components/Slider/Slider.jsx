@@ -18,7 +18,6 @@ import { Autoplay, Pagination, EffectFade} from "swiper";
 
 const Slider = () => {
   return (
-    <>
       <Swiper
         spaceBetween={0}
         centeredSlides={true}
@@ -43,7 +42,6 @@ const Slider = () => {
           <img src={Slide3} alt="zdjęcie" />
         </SwiperSlide>
       </Swiper>
-    </>
   );
 };
 

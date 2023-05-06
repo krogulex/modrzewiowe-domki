@@ -1,4 +1,4 @@
-body.active-modal {
+/* body.active-modal {
     overflow-y: hidden;
 }
 
@@ -31,7 +31,7 @@ body.active-modal {
 
 .overlay {
     background: rgba(49, 49, 49, 0.8);
-}
+} */
 
 .modalContent {
     position: absolute;
@@ -43,7 +43,7 @@ body.active-modal {
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 650px;
-    width: 80%;
+    width: 70%;
 }
 
 .icon {
@@ -51,3 +51,23 @@ body.active-modal {
     height: 20px;
     fill: var(--tertiary-color);
 }
+
+/* @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 1;
+    }
+
+    0% {
+        opacity: 0;
+    }
+} */

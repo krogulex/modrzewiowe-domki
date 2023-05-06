@@ -12,7 +12,7 @@ const About = () => {
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
   return (
-    <div className={css.about}>
+    <div className={`${css.about} reveal fade-right active`}>
       {
         // eslint-disable-next-line
       }
@@ -23,7 +23,7 @@ const About = () => {
           <p>
             Modrzewiowe domki nad morzem to świetny wybór na wakacje dla
             wszystkich miłośników wypoczynku nad polskim morzem. Zlokalizowane w
-            odległości ok. 450 metrów od plaży, oferują dogodny dostęp do
+            odległości ok. 550 metrów od plaży, oferują dogodny dostęp do
             wszystkich atrakcji Sarbinowa - jednej z najbardziej urokliwych,
             nadbałtyckich lokalizacji{isExpanded ? ". " : "..."}
           </p>
@@ -73,7 +73,7 @@ const About = () => {
               <svg className={css.icon}>
                 <use href={`${icons}#icon-beach`}></use>
               </svg>
-              plaża w odległości 450 m
+              plaża w odległości 550 m
             </li>
             <li className={css.amenitiesItem}>
               <svg className={css.icon}>

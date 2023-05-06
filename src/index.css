@@ -26,13 +26,15 @@ a {
 ul {
   padding: 0
 }
-  /* CSS for navigation*/
+
+/* CSS for navigation*/
 h6::before {
   content: "";
   display: block;
-  height: 130px;
-  margin: -130px 0 0;
+  height: 90px;
+  margin: -90px 0 0;
 }
+
 h6 {
   font-size: 0;
   margin-block-start: 0;
@@ -48,13 +50,14 @@ h6 {
 
 .swiper-thumbs .swiper-wrapper .swiper-slide-thumb-active {
   opacity: 1;
-  border: 2px solid var(--primary-color) ;
+  border: 2px solid var(--primary-color);
   border-radius: 5px;
 }
 
 .swiper-button-next {
   --swiper-navigation-size: 30px;
 }
+
 .swiper-button-prev {
   --swiper-navigation-size: 30px;
 }
@@ -64,6 +67,7 @@ h6 {
     font-size: 16px;
     line-height: 1.5;
   }
+
   h6::before {
     content: "";
     display: block;
@@ -71,3 +75,46 @@ h6 {
     margin: -70px 0 0;
   }
 }
+
+/* Animations */
+
+/* .reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
