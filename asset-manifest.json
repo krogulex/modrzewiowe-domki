@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/modrzewiowe-domki/static/css/main.88653956.css",
-    "main.js": "/modrzewiowe-domki/static/js/main.7c2f2483.js",
+    "main.css": "/modrzewiowe-domki/static/css/main.98b31100.css",
+    "main.js": "/modrzewiowe-domki/static/js/main.b198fc9e.js",
     "static/js/787.a28d2428.chunk.js": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js",
     "static/media/plac-zabaw2.jpg": "/modrzewiowe-domki/static/media/plac-zabaw2.79e0bb571f2d9d1c3a62.jpg",
     "static/media/plac-zabaw1.jpg": "/modrzewiowe-domki/static/media/plac-zabaw1.0e0f6e11a760e937b92f.jpg",
     "static/media/domki-tył2.jpg": "/modrzewiowe-domki/static/media/domki-tył2.f6fae74aa0d3bea67408.jpg",
-    "static/media/bałtyk.png": "/modrzewiowe-domki/static/media/bałtyk.fc7f04bca1376402fb57.png",
     "static/media/domki-przód.png": "/modrzewiowe-domki/static/media/domki-przód.e6ca5b8e896240952bc7.png",
+    "static/media/bałtyk.jpg": "/modrzewiowe-domki/static/media/bałtyk.12e5a0070f8f8189de1b.jpg",
     "static/media/domki-tył.jpg": "/modrzewiowe-domki/static/media/domki-tył.549ed7cfcffabc6b9eac.jpg",
     "static/media/pokój1.jpg": "/modrzewiowe-domki/static/media/pokój1.13166ea82065bdefeb80.jpg",
     "static/media/pokój2.jpg": "/modrzewiowe-domki/static/media/pokój2.fb60bd4a50f0fe476d3c.jpg",
@@ -18,12 +18,12 @@
     "static/media/logo-domki.png": "/modrzewiowe-domki/static/media/logo-domki.f6f4536b9955f5d3b118.png",
     "static/media/REGULAMIN MODRZEWIOWE DOMKI.docx": "/modrzewiowe-domki/static/media/REGULAMIN MODRZEWIOWE DOMKI.0f411b69c0ef0abccfdc.docx",
     "index.html": "/modrzewiowe-domki/index.html",
-    "main.88653956.css.map": "/modrzewiowe-domki/static/css/main.88653956.css.map",
-    "main.7c2f2483.js.map": "/modrzewiowe-domki/static/js/main.7c2f2483.js.map",
+    "main.98b31100.css.map": "/modrzewiowe-domki/static/css/main.98b31100.css.map",
+    "main.b198fc9e.js.map": "/modrzewiowe-domki/static/js/main.b198fc9e.js.map",
     "787.a28d2428.chunk.js.map": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88653956.css",
-    "static/js/main.7c2f2483.js"
+    "static/css/main.98b31100.css",
+    "static/js/main.b198fc9e.js"
   ]
 }
