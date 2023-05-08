@@ -44,9 +44,9 @@ export const ContactForm = () => {
 
     send(
       process.env.REACT_APP_EMAILSERVICE_API_KEY,
-      "template_gb6bs67",
+      "template_notegdy",
       toSend,
-      "leA1bBvklfwVhKpjl"
+      "I3FSonJQoGvWzdpFl"
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
