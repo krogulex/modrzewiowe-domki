@@ -47,6 +47,7 @@
         flex-grow: 1;
         flex-basis: 0;
         justify-content: flex-end;
+        margin-top: 8px;
     }
 }
 
@@ -54,15 +55,11 @@
     .aboutContent {
         column-gap: 50px;
     }
+
+    .aboutRight {
+        flex-grow: 1;
+        flex-basis: 0;
+        justify-content: flex-end;
+        margin-top: 9px;
+    }
 }
-  
-/*   @keyframes fade-right {
-    0% {
-      transform: translateX(100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  } */

@@ -97,7 +97,7 @@ header {
 
 @media (min-width: 1024px) {
     .headerContent {
-        max-width: 1024px;
+        max-width: 1300px;
     }
 
     .logo {

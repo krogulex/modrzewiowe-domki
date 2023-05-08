@@ -33,9 +33,24 @@ h6::before {
   display: block;
   height: 90px;
   margin: -90px 0 0;
+  z-index: 1;
 }
 
 h6 {
+  font-size: 0;
+  margin-block-start: 0;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h5::after {
+  content: "";
+  display: block;
+  z-index: 1;
+}
+
+h5 {
   font-size: 0;
   margin-block-start: 0;
   margin-block-end: 0px;
@@ -74,33 +89,25 @@ h6 {
     height: 70px;
     margin: -70px 0 0;
   }
+
+  .swiper-button-next {
+    --swiper-navigation-size: 50px;
+  }
+
+  .swiper-button-prev {
+    --swiper-navigation-size: 50px;
+  }
 }
 
 /* Animations */
 
-/* .reveal {
+.reveal {
   position: relative;
   opacity: 0;
 }
 
 .reveal.active {
   opacity: 1;
-}
-
-.active.fade-right {
-  animation: fade-right 1s ease-in;
-}
-
-@keyframes fade-right {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 .active.fade-bottom {
@@ -117,4 +124,4 @@ h6 {
     transform: translateY(0);
     opacity: 1;
   }
-} */
+}

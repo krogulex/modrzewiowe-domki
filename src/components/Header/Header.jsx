@@ -1,6 +1,5 @@
 import css from "./Header.module.css";
 import image from "../../images/logo-domki.png";
-import { Button } from "@mui/material";
 
 const Header = () => {
   return (

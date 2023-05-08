@@ -12,20 +12,19 @@ const About = () => {
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
   return (
-    <div className={`${css.about} reveal fade-right active`}>
+    <div className={`${css.about} reveal fade-bottom`}>
       {
         // eslint-disable-next-line
-      }
-      <h6 id="About">'</h6>
+      }<h6 id="About">'</h6>
       <div className={css.aboutContent}>
         <div className={css.aboutLeft}>
           <h2>O nas</h2>
           <p>
-            Modrzewiowe domki nad morzem to świetny wybór na wakacje dla
-            wszystkich miłośników wypoczynku nad polskim morzem. Zlokalizowane w
-            odległości ok. 550 metrów od plaży, oferują dogodny dostęp do
-            wszystkich atrakcji Sarbinowa - jednej z najbardziej urokliwych,
-            nadbałtyckich lokalizacji{isExpanded ? ". " : "..."}
+            Modrzewiowe domki to świetny wybór na wakacje dla wszystkich
+            miłośników wypoczynku nad polskim morzem. Zlokalizowane w odległości
+            ok. 550 metrów od plaży, oferują dogodny dostęp do wszystkich
+            atrakcji Sarbinowa - jednej z najbardziej urokliwych, nadbałtyckich
+            lokalizacji{isExpanded ? ". " : "..."}
           </p>
           <p {...getCollapseProps()}>
             Modrzewiowe domki nad morzem to kompleks nowych, oddanych do
@@ -35,14 +34,14 @@ const About = () => {
             materiału przyjaznego alergikom. Domki z bali to świetne miejsce na
             wakacje dla osób, które kochają wypoczywać w naturalnym,
             ekologicznym otoczeniu, wyposażonym we wszystkie udogodnienia.
-            Modrzewiowe domki nad morzem to kompleks pięciu przestronnych,
-            czystych oraz kompleksowo urządzonych domków letniskowych. Domki na
-            wakacje są wykonane z bala i składają się z dwóch poziomów. Każdy
-            domek posiada powierzchnię 54 m2 i może w nim wypoczywać 6 osób. Na
-            parterze znajduje się aneks kuchenny, łazienka z kabiną prysznicową
-            oraz salon z dwuosobową kanapą. Na piętrze do dyspozycji gości są
-            dwie osobne sypialnie. W sypialniach znajdują się dwa łóżka -
-            dwuosobowe oraz jednoosobowe.
+            Modrzewiowe domki to kompleks pięciu przestronnych, czystych oraz
+            kompleksowo urządzonych domków letniskowych. Domki na wakacje są
+            wykonane z bala i składają się z dwóch poziomów. Każdy domek posiada
+            powierzchnię 54 m2 i może w nim wypoczywać 6 osób. Na parterze
+            znajduje się aneks kuchenny, łazienka z kabiną prysznicową oraz
+            salon z dwuosobową kanapą. Na piętrze do dyspozycji gości są dwie
+            osobne sypialnie. W sypialniach znajdują się dwa łóżka - dwuosobowe
+            oraz jednoosobowe.
           </p>
           <Button
             variant="contained"

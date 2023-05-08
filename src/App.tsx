@@ -5,7 +5,6 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
-import Slider from "./components/Slider/Slider";
 import Footer from "./components/Footer/Footer";
 import Modal1 from "./components/Modal/Modal";
 import Home from "./components/Home/Home";
@@ -63,8 +62,8 @@ function App() {
     setModal(!modal);
   };
 
-//Animations
-/*   function reveal() {
+  //Animations
+  function reveal() {
     const reveals = document.querySelectorAll(".reveal");
 
     for (let i = 0; i < reveals.length; i++) {
@@ -78,7 +77,7 @@ function App() {
     }
   }
 
-  window.addEventListener("scroll", reveal); */
+  window.addEventListener("scroll", reveal);
 
   return (
     <LocalizationProvider
@@ -93,12 +92,10 @@ function App() {
       <ThemeProvider theme={theme}>
         <Header></Header>
         <Home toggleModal={toggleModal}></Home>
-{/*         <Slider></Slider> */}
         <About></About>
         <Gallery></Gallery>
         <Contact></Contact>
         <Footer></Footer>
-        {/*         {modal && <Modal1 modal={modal} toggleModal={toggleModal}></Modal1>} */}
         <Modal1 modal={modal} toggleModal={toggleModal}></Modal1>
       </ThemeProvider>
     </LocalizationProvider>

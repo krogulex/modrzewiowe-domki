@@ -1,5 +1,3 @@
-
-
 .box {
     height: 90px;
     background-color: var(--primary-color);
@@ -8,13 +6,14 @@
 .backgroundImage {
     width: 100%;
     height: 400px;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bałtyk.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/bałtyk-mobile.jpeg);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: calc(100vh - 90px);
 }
 
 .slogan {
@@ -24,25 +23,38 @@
     padding: 15px;
 }
 
+.noWrap {
+    white-space: nowrap;
+}
+
 @media (min-width: 768px) {
 
     .box {
         height: 70px;
     }
+
     .backgroundImage {
-        height: 500px;
+        height: calc(100vh - 70px);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/bałtyk-tablet.jpeg);
     }
+
     .slogan {
-        font-size: 36px;
+        font-size: 40px;
         padding: 40px;
     }
-      
-  }
-  
-  @media (min-width: 1024px) {
-    .backgroundImage {
-        height: calc(80vh - 70px);
+
+    .noWrap::before {
+        content: "\a";
+        white-space: pre;
     }
+
+}
+
+@media (min-width: 1024px) {
+    .backgroundImage {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/bałtyk.jpg);
+    }
+
     .slogan {
         font-size: 46px;
     }

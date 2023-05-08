@@ -2,19 +2,25 @@ import css from "./Home.module.css";
 
 import { Button } from "@mui/material";
 
-import bałtyk from "../../images/bałtyk.png";
-
 const Home = ({ toggleModal }) => {
   return (
     <div className={css.home}>
-      <h6 id="Home"></h6>
+      <h6 id="Home">'</h6>
       <div className={css.box}></div>
-      <div className={css.backgroundImage}>
-        <h1 className={css.slogan}>Domki wypoczynkowe w Sarbinowie</h1>
+      <div className={css.backgroundImage} loading="eager">
+        <h1 className={css.slogan}>
+          Domki wypoczynkowe nad morzem{" "}
+          <span className={css.noWrap}>w Sarbinowie</span>
+        </h1>
         <Button
           variant="contained"
           onClick={toggleModal}
           sx={{
+            "@media (min-width:768px)": {
+              fontSize: 18,
+              width: 150,
+              height: 55,
+            },
             "@media (min-width:1024px)": {
               width: 200,
               height: 60,

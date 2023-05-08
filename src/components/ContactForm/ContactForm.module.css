@@ -1,5 +1,3 @@
-@import '../../roots/roots.css';
-
 .card {
     max-width: 650px;
     margin: 0 auto;
@@ -9,26 +7,40 @@
 .formButton {
     margin-top: 8px;
 }
+
 .ask {
     margin-bottom: 20px;
     font-size: 18px;
 }
+
 .alert {
     margin-top: 8px;
     margin-left: 8px;
 }
+
 .contactLink {
     transition: color 300ms;
     margin-left: 7px;
     margin-right: 7px;
     white-space: nowrap
 }
+
 .icon {
     width: 18px;
     height: 18px;
     margin-right: 7px;
 }
+
 .contactLink:hover {
     color: var(--primary-color);
     fill: var(--primary-color);
+}
+
+.statuteForm {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.alertPhone {
+    color: rgb(95, 33, 32);
 }
