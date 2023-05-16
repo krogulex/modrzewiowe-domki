@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/modrzewiowe-domki/static/css/main.f70deb48.css",
-    "main.js": "/modrzewiowe-domki/static/js/main.b2db44c2.js",
+    "main.css": "/modrzewiowe-domki/static/css/main.5776e3b4.css",
+    "main.js": "/modrzewiowe-domki/static/js/main.0d77eaa8.js",
     "static/js/787.a28d2428.chunk.js": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js",
-    "static/media/plac-zabaw2.jpg": "/modrzewiowe-domki/static/media/plac-zabaw2.79e0bb571f2d9d1c3a62.jpg",
-    "static/media/plac-zabaw1.jpg": "/modrzewiowe-domki/static/media/plac-zabaw1.0e0f6e11a760e937b92f.jpg",
-    "static/media/domki-tył2.jpg": "/modrzewiowe-domki/static/media/domki-tył2.f6fae74aa0d3bea67408.jpg",
-    "static/media/domki-przód.png": "/modrzewiowe-domki/static/media/domki-przód.e6ca5b8e896240952bc7.png",
     "static/media/bałtyk.jpg": "/modrzewiowe-domki/static/media/bałtyk.12e5a0070f8f8189de1b.jpg",
-    "static/media/domki-tył.jpg": "/modrzewiowe-domki/static/media/domki-tył.549ed7cfcffabc6b9eac.jpg",
     "static/media/bałtyk-tablet.jpeg": "/modrzewiowe-domki/static/media/bałtyk-tablet.a0917e22a435fbe9f948.jpeg",
-    "static/media/pokój1.jpg": "/modrzewiowe-domki/static/media/pokój1.13166ea82065bdefeb80.jpg",
-    "static/media/pokój2.jpg": "/modrzewiowe-domki/static/media/pokój2.fb60bd4a50f0fe476d3c.jpg",
-    "static/media/kuchnia.jpg": "/modrzewiowe-domki/static/media/kuchnia.277d3aaa7bf31e636f4c.jpg",
-    "static/media/salon.jpg": "/modrzewiowe-domki/static/media/salon.d94c6567f772499560ca.jpg",
+    "static/media/plac-zabaw-2.jpg": "/modrzewiowe-domki/static/media/plac-zabaw-2.05278ecf9e4b23bc83ee.jpg",
     "static/media/bałtyk-mobile.jpeg": "/modrzewiowe-domki/static/media/bałtyk-mobile.50977e206d25f9547658.jpeg",
-    "static/media/łazienka.jpg": "/modrzewiowe-domki/static/media/łazienka.06973bae382e4054943a.jpg",
+    "static/media/plac-zabaw.jpg": "/modrzewiowe-domki/static/media/plac-zabaw.9bcf137c863087b064a2.jpg",
+    "static/media/domki-tył.jpg": "/modrzewiowe-domki/static/media/domki-tył.30bbf9d98807c6c51443.jpg",
+    "static/media/domki-tył-2.jpg": "/modrzewiowe-domki/static/media/domki-tył-2.f092f97784a74907ed69.jpg",
+    "static/media/łazienka.jpg": "/modrzewiowe-domki/static/media/łazienka.51842e855d8fdc49d487.jpg",
+    "static/media/domki-przód.jpg": "/modrzewiowe-domki/static/media/domki-przód.6a02ae4179f3dbc04092.jpg",
+    "static/media/kuchnia.jpg": "/modrzewiowe-domki/static/media/kuchnia.3f0afe13a6664f6088f5.jpg",
+    "static/media/salon.jpg": "/modrzewiowe-domki/static/media/salon.76edabb6c69672286c85.jpg",
+    "static/media/pokój-1.jpg": "/modrzewiowe-domki/static/media/pokój-1.d9cdf7a13243c55a9b1f.jpg",
+    "static/media/pokój-2.jpg": "/modrzewiowe-domki/static/media/pokój-2.c1f8173712c389424de4.jpg",
     "static/media/symbol-defs.svg": "/modrzewiowe-domki/static/media/symbol-defs.c508e4f814e00f8f0d7b95f78f5673e5.svg",
     "static/media/logo-domki.png": "/modrzewiowe-domki/static/media/logo-domki.f6f4536b9955f5d3b118.png",
     "static/media/REGULAMIN-MODRZEWIOWE-DOMKI.docx": "/modrzewiowe-domki/static/media/REGULAMIN-MODRZEWIOWE-DOMKI.0f411b69c0ef0abccfdc.docx",
     "index.html": "/modrzewiowe-domki/index.html",
-    "main.f70deb48.css.map": "/modrzewiowe-domki/static/css/main.f70deb48.css.map",
-    "main.b2db44c2.js.map": "/modrzewiowe-domki/static/js/main.b2db44c2.js.map",
+    "main.5776e3b4.css.map": "/modrzewiowe-domki/static/css/main.5776e3b4.css.map",
+    "main.0d77eaa8.js.map": "/modrzewiowe-domki/static/js/main.0d77eaa8.js.map",
     "787.a28d2428.chunk.js.map": "/modrzewiowe-domki/static/js/787.a28d2428.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f70deb48.css",
-    "static/js/main.b2db44c2.js"
+    "static/css/main.5776e3b4.css",
+    "static/js/main.0d77eaa8.js"
   ]
 }
