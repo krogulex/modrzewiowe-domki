@@ -15,10 +15,10 @@ const About = () => {
     <div className={`${css.about} reveal fade-bottom`}>
       {
         // eslint-disable-next-line
-      }<h6 id="About">'</h6>
+      }<div id="About" className="div-nav">'</div>
       <div className={css.aboutContent}>
         <div className={css.aboutLeft}>
-          <h2>O nas</h2>
+          <h3>O nas</h3>
           <p>
             Modrzewiowe domki to świetny wybór na wakacje dla wszystkich
             miłośników wypoczynku nad polskim morzem. Zlokalizowane w odległości
@@ -54,7 +54,7 @@ const About = () => {
         </div>
 
         <div className={css.aboutRight}>
-          <h3>Udogodnienia</h3>
+          <h4>Udogodnienia</h4>
           <ul className={css.amenitiesList}>
             <li className={css.amenitiesItem}>
               <svg className={css.icon}>
@@ -225,11 +225,11 @@ const About = () => {
               zwierzęta akceptowane za dodatkową opłatą
             </li>
           </ul>
-          <h3>Atrakcje w pobliżu</h3>
+          <h4>Atrakcje w pobliżu</h4>
           <p>
             Plaża w Sarbinowie, nadmorska promenada, jezioro Jamno, wiele
             restauracji i sklepów, szlaki piesze i rowerowe, latarnia morska w
-            Gąskach atrakcje w Mielnie, poniemieckie bukry, molo w Chłopach,
+            Gąskach atrakcje w Mielnie, poniemieckie bunkry, molo w Chłopach,
             park linowy i wiele innych!
           </p>
         </div>

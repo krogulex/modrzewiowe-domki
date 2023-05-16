@@ -5,13 +5,13 @@ import { Button } from "@mui/material";
 const Home = ({ toggleModal }) => {
   return (
     <div className={css.home}>
-      <h6 id="Home">'</h6>
+      <div id="Home"  className="div-nav"></div>
       <div className={css.box}></div>
       <div className={css.backgroundImage} loading="eager">
-        <h1 className={css.slogan}>
+        <h2 className={css.slogan}>
           Domki wypoczynkowe nad morzem{" "}
           <span className={css.noWrap}>w Sarbinowie</span>
-        </h1>
+        </h2>
         <Button
           variant="contained"
           onClick={toggleModal}

@@ -10,26 +10,39 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-import img1 from "../../images/domki-przód.png";
+import img1 from "../../images/domki-przód.jpg";
 import img2 from "../../images/domki-tył.jpg";
-import img3 from "../../images/plac-zabaw1.jpg";
-import img4 from "../../images/plac-zabaw2.jpg";
-import img5 from "../../images/domki-tył2.jpg";
+import img3 from "../../images/plac-zabaw.jpg";
+import img4 from "../../images/plac-zabaw-2.jpg";
+import img5 from "../../images/domki-tył-2.jpg";
 import img6 from "../../images/salon.jpg";
 import img7 from "../../images/kuchnia.jpg";
 import img8 from "../../images/łazienka.jpg";
-import img9 from "../../images/pokój1.jpg";
-import img10 from "../../images/pokój2.jpg";
+import img9 from "../../images/pokój-1.jpg";
+import img10 from "../../images/pokój-2.jpg";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+const images = [
+  { src: img1, alt: "domki-przód" },
+  { src: img2, alt: "domki-tył" },
+  { src: img3, alt: "plac-zabaw" },
+  { src: img4, alt: "plac-zabaw" },
+  { src: img5, alt: "domki-tył" },
+  { src: img6, alt: "łazienka" },
+  { src: img7, alt: "salon" },
+  { src: img8, alt: "kuchnia" },
+  { src: img9, alt: "pokój-1" },
+  { src: img10, alt: "pokój-2" },
+];
+
+console.log(img10);
 
 const Gallery = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <div className={`${css.gallery}`}>
-      <div id="Gallery" className={css.navLink}></div>
-      <h2 className={css.galleryHead}>Galeria</h2>
+      <div id="Gallery" className="div-nav"></div>
+      <h3 className={css.galleryHead}>Galeria</h3>
       <div className={css.swipers}>
         <Swiper
           style={{
@@ -49,7 +62,7 @@ const Gallery = () => {
         >
           {images.map((item, index) => (
             <SwiperSlide className={css.swiperSlide} key={index}>
-              <img src={item} alt="zdjęcie" />
+              <img src={item.src} alt={item.alt} loading="lazy" />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -66,7 +79,7 @@ const Gallery = () => {
           {images.map((item, index) => (
             <SwiperSlide className={css.swiperSlide} key={index}>
               <div className={css.swiperThumbsWrapper}>
-                <img src={item} alt="zdjęcie" />
+                <img src={item.src} alt={item.alt} loading="lazy" />
               </div>
             </SwiperSlide>
           ))}

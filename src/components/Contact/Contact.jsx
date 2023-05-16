@@ -11,8 +11,8 @@ const Contact = () => {
         <div className={css.contactLeft}>
           {
 // eslint-disable-next-line
-          }<h6 id="Contact">'</h6>
-          <h2>Kontakt</h2>
+          }<div id="Contact" className="div-nav"></div>
+          <h3>Kontakt</h3>
           <address className={css.address}>
             <h4>Modrzewiowe Domki</h4>
             <ul className={css.addressList}>
@@ -63,17 +63,17 @@ const Contact = () => {
           </address>
         </div>
         <div className={`${css.contactRight} reveal fade-bottom active`}>
-          <h2>Mapa</h2>
+          <h3>Mapa</h3>
           <iframe
             title="location"
             className={css.map}
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9325.739327391402!2d15.9670371!3d54.2431906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700302da9bdde1f%3A0x25e6e63a0f214f2b!2sModrzewiowe%20Domki!5e0!3m2!1spl!2spl!4v1683387315021!5m2!1spl!2spl"
-            loading="eager"
+            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
                   {
 // eslint-disable-next-line
-          }<h5 id="Mapa">'</h5>
+          }<div id="Mapa" className="div-nav">dddwed</div>
         </div>
       </div>
     </div>

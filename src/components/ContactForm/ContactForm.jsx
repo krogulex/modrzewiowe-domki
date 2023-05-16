@@ -61,7 +61,6 @@ export const ContactForm = () => {
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
-  console.log(toSend);
   return (
     <Card
       className={css.card}

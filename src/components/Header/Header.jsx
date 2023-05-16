@@ -7,7 +7,7 @@ const Header = () => {
       <div className={css.headerContent}>
         <a className={css.name} href=".">
           <img className={css.logo} src={image} alt="logo domków"></img>
-          <h2 className={css.nameText}>Modrzewiowe Domki</h2>
+          <h1 className={css.nameText}>Modrzewiowe Domki</h1>
         </a>
         <nav className={css.navigation}>
           <ul className={css.navigationList}>
