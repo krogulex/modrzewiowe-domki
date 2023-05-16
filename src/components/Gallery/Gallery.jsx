@@ -34,8 +34,6 @@ const images = [
   { src: img10, alt: "pokój-2" },
 ];
 
-console.log(img10);
-
 const Gallery = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
