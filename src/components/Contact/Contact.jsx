@@ -73,7 +73,7 @@ const Contact = () => {
           ></iframe>
                   {
 // eslint-disable-next-line
-          }<div id="Mapa" className="div-nav">dddwed</div>
+          }<div id="Mapa" className="div-nav"></div>
         </div>
       </div>
     </div>
