@@ -1,5 +1,4 @@
 import css from "./Footer.module.css";
-import image from "../../images/logo-domki.png";
 
 const Footer = () => {
   return (
