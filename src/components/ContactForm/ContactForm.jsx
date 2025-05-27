@@ -81,9 +81,10 @@ export const ContactForm = () => {
             </svg>
             +48 694 225 226 <br />
           </a>
-          lub spytaj o dostępność!
+          i spytaj o dostępność!
         </Typography>
-        <form onSubmit={handleSubmit}>
+        
+        {/* <form onSubmit={handleSubmit}>
           <Grid container spacing={1}>
             <Grid xs={12} item>
               <TextField
@@ -235,7 +236,7 @@ export const ContactForm = () => {
                   </a>
                 }
               />
-            </FormGroup>
+            </FormGroup> 
             {alert === true && (
               <Alert severity="success" className={css.alert}>
                 <AlertTitle>Sukces</AlertTitle>
@@ -267,7 +268,8 @@ export const ContactForm = () => {
               Wyślij
             </Button>
           </Grid>
-        </form>
+        </form>*/}
+         
       </CardContent>
     </Card>
   );
