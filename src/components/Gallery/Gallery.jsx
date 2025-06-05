@@ -10,17 +10,15 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-import img1 from "../../images/domki-przód.jpg";
-import img2 from "../../images/domki-tył.jpg";
-import img3 from "../../images/plac-zabaw.jpg";
-import img4 from "../../images/plac-zabaw-2.jpg";
-import img5 from "../../images/domki-tył-2.jpg";
-import img6 from "../../images/salon.jpg";
-import img7 from "../../images/kuchnia.jpg";
-import img8 from "../../images/łazienka.jpg";
-import img9 from "../../images/pokój-1.jpg";
-import img10 from "../../images/pokój-2.jpg";
-import img11 from "../../images/przód z drzewem.jpg"
+import img1 from "../../images/1.jpg";
+import img2 from "../../images/2.jpg";
+import img3 from "../../images/3.jpg";
+import img4 from "../../images/4.jpg";
+import img5 from "../../images/5.png";
+import img6 from "../../images/6.png";
+import img7 from "../../images/7.jpg";
+import img8 from "../../images/8.jpg";
+
 
 import img12 from "../../images/plac zabaw.jpg";
 import img13 from "../../images/kuchnia.jpg";
@@ -38,24 +36,13 @@ import img22 from "../../images/143.jpg"
 
 const images = [
   { src: img1, alt: "domki-przód" },
- // { src: img11, alt: "domki przód z drzewem" },
- // { src: img15, alt: "tył" },
   { src: img2, alt: "domki-tył" },
-    { src: img19, alt: "plac zabaw" },
-      { src: img20, alt: "plac zabaw" },
-    { src: img12, alt: "plac-zabaw" },
-       { src: img22, alt: "plac-zabaw" },
-  //{ src: img3, alt: "plac-zabaw" },
-  //{ src: img4, alt: "plac-zabaw" },
-  { src: img18, alt: "jadalnia" },
-    { src: img13, alt: "jadalnia" },
-  // { src: img14, alt: "leżaki" },
-  //{ src: img5, alt: "domki-tył" },
- // { src: img6, alt: "łazienka" },,
-  { src: img8, alt: "kuchnia" },
- // { src: img9, alt: "pokój-1" },
-  { src: img17, alt: "łóżka" },
- // { src: img10, alt: "pokój-2" },
+    { src: img3, alt: "plac zabaw" },
+      { src: img4, alt: "plac zabaw" },
+    { src: img5, alt: "plac-zabaw" },
+       { src: img6, alt: "plac-zabaw" },
+  { src: img7, alt: "jadalnia" },
+    { src: img8, alt: "jadalnia" },
 ];
 
 const Gallery = () => {
